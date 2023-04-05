@@ -1,0 +1,10 @@
+.hov-a:hover.hov-a::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #000;
+    width: 35%;
+    height: 1.8px;
+}
