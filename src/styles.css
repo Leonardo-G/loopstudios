@@ -1,3 +1,9 @@
-p{
+p, strong, h1, h2, h3{
     font-size: 15px;
+    font-family: "Alata", sans-serif;
+}
+
+.font-2{
+    font-family: "Josegin Sans", sans-serif;
+    font-weight: 300;
 }
