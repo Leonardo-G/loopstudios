@@ -4,6 +4,8 @@ import { ContainerComponent } from './container/container.component';
 import { FrontPageComponent } from './front-page/front-page.component';
 import { NavigationModule } from '../navigation/navigation.module';
 import { InfoComponent } from './info/info.component';
+import { CreationsComponent } from './creations/creations.component';
+import { CreationsModule } from '../creations/creations.module';
 
 
 
@@ -12,10 +14,12 @@ import { InfoComponent } from './info/info.component';
     ContainerComponent,
     FrontPageComponent,
     InfoComponent,
+    CreationsComponent,
   ],
   imports: [
     CommonModule,
-    NavigationModule
+    NavigationModule,
+    CreationsModule
   ],
   exports: [
     ContainerComponent 

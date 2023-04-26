@@ -1,0 +1,61 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax( 260px, 1fr ) );
+    gap: 35px;
+    margin-top: 50px;
+}
+
+.grid__item{
+    position: relative;
+}
+
+.grid__item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.grid__item--hover{
+    transition: all .3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    visibility: hidden;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.grid__item--absolute{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 1;
+    background: linear-gradient(180deg, rgba(4,0,0,0.011642156862745057) 1%, rgba(4,0,0,0.5214460784313726) 36%, rgba(4,0,0,0.6895133053221288) 70%, rgba(0,0,0,1) 100%);
+    padding: 40px;
+    cursor: pointer;
+}
+
+.grid__item--absolute p{
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.grid__item:hover .grid__item--absolute{
+    background: transparent;
+}
+
+.grid__item:hover .grid__item--absolute p{
+    color: #000;
+}
+
+.grid__item:hover .grid__item--hover{
+    transition: opacity .3s ease;
+    visibility: visible;
+    opacity: 0.7;
+}

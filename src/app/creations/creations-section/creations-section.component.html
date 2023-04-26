@@ -1,0 +1,9 @@
+<div class="grid">
+    <div *ngFor="let item of getAllCreations()" class="grid__item">
+        <img src="{{ item.srcDesktop }}" alt="{{ item.title }}">
+        <div class="grid__item--hover"></div>
+        <div class="grid__item--absolute">
+            <p class="font-2">{{ item.title }}</p>
+        </div>
+    </div>
+</div>
