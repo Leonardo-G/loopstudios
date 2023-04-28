@@ -7,3 +7,8 @@ p, strong, h1, h2, h3{
     font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
 }
+
+.container-window{
+    width: min(1400px, 95%);
+    margin: 0 auto;
+}

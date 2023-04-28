@@ -1,8 +1,3 @@
-.container-window{
-    width: min(1400px, 95%);
-    margin: 0 auto;
-}
-
 .section{
     margin: 100px 0;
 }

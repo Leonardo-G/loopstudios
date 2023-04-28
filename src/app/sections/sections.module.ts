@@ -6,6 +6,7 @@ import { NavigationModule } from '../navigation/navigation.module';
 import { InfoComponent } from './info/info.component';
 import { CreationsComponent } from './creations/creations.component';
 import { CreationsModule } from '../creations/creations.module';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -15,6 +16,7 @@ import { CreationsModule } from '../creations/creations.module';
     FrontPageComponent,
     InfoComponent,
     CreationsComponent,
+    FooterComponent,
   ],
   imports: [
     CommonModule,

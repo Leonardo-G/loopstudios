@@ -1,0 +1,42 @@
+.background{
+    background: #000;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex h4{
+    font-weight: 700;
+    font-size: 25px;
+    align-items: center;
+}
+
+.flex h4, .flex p{
+    color: #fff;
+}
+
+.redes{
+    display: flex;
+    column-gap: 20px;
+}
+
+.redes img{
+    object-fit: contain;
+}
+
+.footer__bottom{
+    padding-top: 30px;
+}
+
+.enlaces{
+    display: flex;
+    column-gap: 30px;
+}
+
+.flex .footer__bottom--copyright{
+    color: hsl(0, 0%, 55%);
+}
