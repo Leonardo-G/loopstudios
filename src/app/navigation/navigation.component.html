@@ -3,12 +3,32 @@
         <div>
             <strong class="text-2xl">loopstudios</strong>
         </div>
-        <div class="flex">
+        <div class="flex navigation--desktop">
             <p class="px-4 cursor-pointer relative hov-a">About</p>
             <p class="px-4 cursor-pointer relative hov-a">Carrers</p>
             <p class="px-4 cursor-pointer relative hov-a">Events</p>
             <p class="px-4 cursor-pointer relative hov-a">Products</p>
             <p class="px-4 cursor-pointer relative hov-a">Support</p>
+        </div>
+        <div class="navbar">
+            <fa-icon [icon]="faBars"></fa-icon>
+        </div>
+        <div class="navigation">
+            <div class="navigation__top">
+                <div>
+                    <strong class="text-2xl">loopstudios</strong>
+                </div>
+                <div>
+                    <fa-icon [icon]="faXmark"></fa-icon>
+                </div>
+            </div>
+            <div class="navigation__bottom">
+                <p>about</p>
+                <p>carrers</p>
+                <p>events</p>
+                <p>products</p>
+                <p>support</p>
+            </div>
         </div>
     </nav>
 </header>

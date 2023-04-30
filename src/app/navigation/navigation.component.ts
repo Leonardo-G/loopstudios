@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-navigation',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class NavigationComponent {
 
+  public faBars = faBars;
+  public faXmark = faXmark;
 }
