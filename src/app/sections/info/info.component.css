@@ -34,3 +34,24 @@
     line-height: 1.6;
     font-size: 17px;
 }
+
+@media ( max-width: 920px ) {
+    .info__text{
+        padding: 50px 0 0 50px;
+    }
+}
+
+@media (max-width: 720px) {
+    .info__text{
+        position: inherit;
+        padding: 50px 0 0 0;
+    }
+
+    .info__text h3, .info__text p{
+        text-align: center;
+    }
+
+    .info__img, .info__text{
+        width: 100%;
+    }
+}

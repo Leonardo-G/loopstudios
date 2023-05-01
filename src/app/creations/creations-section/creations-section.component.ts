@@ -36,25 +36,25 @@ export class CreationsSectionComponent {
     {
       id: 5,
       srcDesktop: "/assets/desktop/image-from-above.jpg",
-      srcMobile: "/assets/mobile/from-above.jpg",
+      srcMobile: "/assets/mobile/image-from-above.jpg",
       title: "from up above vr"
     },
     {
       id: 6,
       srcDesktop: "/assets/desktop/image-pocket-borealis.jpg",
-      srcMobile: "/assets/mobile/from-pocket-borealis.jpg",
+      srcMobile: "/assets/mobile/image-pocket-borealis.jpg",
       title: "pocket borealis"
     },
     {
       id: 7,
       srcDesktop: "/assets/desktop/image-curiosity.jpg",
-      srcMobile: "/assets/mobile/from-curiosity.jpg",
+      srcMobile: "/assets/mobile/image-curiosity.jpg",
       title: "the curiosity"
     },
     {
       id: 8,
       srcDesktop: "/assets/desktop/image-fisheye.jpg",
-      srcMobile: "/assets/mobile/from-fisheye.jpg",
+      srcMobile: "/assets/mobile/image-fisheye.jpg",
       title: "make it fisheye"
     }
   ]

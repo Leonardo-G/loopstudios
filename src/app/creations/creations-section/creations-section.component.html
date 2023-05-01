@@ -1,6 +1,9 @@
 <div class="grid">
     <div *ngFor="let item of getAllCreations()" class="grid__item">
-        <img src="{{ item.srcDesktop }}" alt="{{ item.title }}">
+        <picture>
+            <source media="(max-width: 720px)" srcset="{{ item.srcMobile }}">
+            <img src="{{ item.srcDesktop }}" alt="{{ item.title }}">
+        </picture>
         <div class="grid__item--hover"></div>
         <div class="grid__item--absolute">
             <p class="font-2">{{ item.title }}</p>
