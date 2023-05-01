@@ -10,4 +10,10 @@ export class NavigationComponent {
 
   public faBars = faBars;
   public faXmark = faXmark;
+
+  public navBar = false;
+
+  onClickNavbar(): void {
+    this.navBar = !this.navBar;
+  }
 }

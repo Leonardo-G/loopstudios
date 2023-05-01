@@ -10,24 +10,30 @@
             <p class="px-4 cursor-pointer relative hov-a">Products</p>
             <p class="px-4 cursor-pointer relative hov-a">Support</p>
         </div>
-        <div class="navbar">
+        <div 
+            class="navbar"
+            (click)="onClickNavbar()"    
+        >
             <fa-icon [icon]="faBars"></fa-icon>
         </div>
-        <div class="navigation">
+        <div 
+            class="navigation"
+            [class.navigation--on]="navBar"
+        >
             <div class="navigation__top">
                 <div>
                     <strong class="text-2xl">loopstudios</strong>
                 </div>
-                <div>
+                <div (click)="onClickNavbar()">
                     <fa-icon [icon]="faXmark"></fa-icon>
                 </div>
             </div>
             <div class="navigation__bottom">
-                <p>about</p>
-                <p>carrers</p>
-                <p>events</p>
-                <p>products</p>
-                <p>support</p>
+                <p class="font-2">about</p>
+                <p class="font-2">carrers</p>
+                <p class="font-2">events</p>
+                <p class="font-2">products</p>
+                <p class="font-2">support</p>
             </div>
         </div>
     </nav>
